@@ -233,20 +233,28 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+body,h1,h2,h3,h4,h5 {font-family: Verdana, Tahoma, serif, sans-serif}
 .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
 .w3-third img:hover{opacity: 1}
+.w3-blue-1center {
+    background-color: #26316d;
+    color: white;
+}
+.w3-light-blue-1center {
+    background-color: #16c5f3;
+}
+
 
 footer {
     padding: 35px 50px;
 }
+footer a {color: #61CAFA;}
+footer a:hover  {color: #fff;text-decoration: none;}
+
 .ft-heading, .ft-heading-mobile  {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 21px;
-    
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .ft-heading {
@@ -257,10 +265,10 @@ footer {
 
     margin: 10px 0 25px;
     width: 100%;
-    background-color: #37474f;
+    background-color: white;
     border: 0px solid;
     height: 35px;
-    color: white;
+    color: #37474f;
     padding: 10px;
 
 }
@@ -318,7 +326,7 @@ footer {
     position: absolute;
     top: 19px;
     right: 10px;
-    color: white;
+    color: #000;
 }
 .main-column {
     background-color: #262626;
