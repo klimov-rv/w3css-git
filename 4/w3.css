@@ -240,12 +240,17 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 footer {
     padding-bottom: 35px;
 }
-.ft-heading {
+.ft-heading, .ft-heading-mobile  {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;
+    
+}
+
+.ft-heading {
+    color: #FFFFFF;
     
 }
 .search_input {
