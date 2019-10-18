@@ -240,6 +240,17 @@ body,h1,h2,h3,h4,h5 {font-family: Verdana, Tahoma, serif, sans-serif}
     background-color: #26316d;
     color: white;
 }
+.w3-blue-1center input {
+    color: #000 !important;
+    background-color: #fdf5e6 !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+.w3-blue-1center button:hover {
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
 .w3-light-blue-1center {
     background-color: #16c5f3;
 }
